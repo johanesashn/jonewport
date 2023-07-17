@@ -1,6 +1,7 @@
 import instagram from "../../public/assets/instagram.png"
 import linkedin from "../../public/assets/linkedin.png"
 import gmail from "../../public/assets/gmail.png"
+import arrow from "../../public/assets/arrow.png"
 
 export default function Footer(){
 
@@ -18,7 +19,7 @@ export default function Footer(){
                     <li><a href="mailto:johanesashn@gmail.com" target="_blank"><img src={gmail} alt="" /></a></li>
                 </ul>
             </div>
-            <button onClick={goUp} className="footer-button">Go up</button>
+            <button onClick={goUp} className="footer-button">Go Upside <img src={arrow} alt="" className="footer-button--image"/></button>
         </footer>
     )
 }
