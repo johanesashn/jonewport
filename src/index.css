@@ -30,7 +30,6 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: var(--dark);
     overflow-x: hidden;
 }
 
@@ -64,7 +63,7 @@ a {
     gap: 1rem;
 }
 
-nav {
+nav{
     position: fixed;
     right: 3%;
     left: 3%;
@@ -75,6 +74,7 @@ nav {
     letter-spacing: .05rem;
     z-index: 3;
     transition: all .3s;
+    color: var(--grey);
 }
 
 nav.hide {
@@ -89,6 +89,7 @@ nav.hide {
 }
 
 .jumbotron {
+    color: var(--dark);
     padding: 0 3%;
     display: flex;
     justify-content: center;
@@ -196,6 +197,7 @@ nav.hide {
     padding: 100px 0;
     background-color: var(--bg-light);
     text-align: center;
+    color: var(--dark);
 }
 
 .project-title--main {
@@ -210,7 +212,6 @@ nav.hide {
 .project-container {
     padding: 0 3%;
     display: grid;
-    /* grid-template-areas: "item item item"; */
     grid-template-areas: 
         "one one two four"
         "one one five five"
@@ -222,6 +223,7 @@ nav.hide {
 
 .card{
     position: relative;
+    color: var(--dark);
 }
 
 .card-background {
@@ -333,6 +335,7 @@ nav.hide {
     padding-bottom: 100px;
     justify-content: space-between;
     align-items: center;
+    color: var(--dark);
 }
 
 .skills-title{

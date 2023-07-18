@@ -4,6 +4,10 @@ export default function Navbar(){
     const [showNav, setShowNav] = useState(true)
     const [navClass, setNavClass] = useState("")
 
+    const goUp = () => {
+        window.scrollTo(0,0)
+    }
+
     let prevScrollPos = window.scrollY
     window.onscroll = function(){
         let curScrollPos = window.scrollY
@@ -20,7 +24,7 @@ export default function Navbar(){
     return (
         <nav className={navClass}>
             <ul className="nav-list">
-                <li><a href="#home">Home</a></li>
+                <li onClick={goUp}>Home</li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
             </ul>
