@@ -1,3 +1,5 @@
+import instagram from "../../public/assets/instagram.png"
+import linkedin from "../../public/assets/linkedin.png"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 export default function Jumbotron(){
@@ -13,9 +15,9 @@ export default function Jumbotron(){
         <main className="jumbotron">
             <section className="jumbotron-socials">
                 <ul>
-                    <li className="jumbotron-socials--list instagram"><a href=""></a></li>
-                    <li className="jumbotron-socials--list linkedin"><a href=""></a></li>
-                    <li className="jumbotron-socials--list"><a href=""><button className="jumbotron-button">Email Me</button></a></li>
+                    <li className="jumbotron-socials--list"><a href="https://www.instagram.com/johanesalberto/" target="_blank"><img src={instagram} alt="" /></a></li>
+                    <li className="jumbotron-socials--list"><a href="https://www.linkedin.com/in/johanes-alberto/" target="_blank"><img src={linkedin} alt="" /></a></li>
+                    <li className="jumbotron-socials--list" target="_blank"><a href="mailto:johanesashn@gmail.com"><button className="jumbotron-button">Email Me</button></a></li>
                 </ul>
             </section>
             <h1 className="jumbotron-title one jumbotron-greeting">{text}<Cursor/><span className="invisible">.</span></h1>

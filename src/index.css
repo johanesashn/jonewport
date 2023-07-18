@@ -146,14 +146,8 @@ nav.hide {
     height: 30px;
 }
 
-.jumbotron-socials--list.linkedin{
-    background: url("../public/assets/linkedin.png");
-    background-size: cover;
-}
-
-.jumbotron-socials--list.instagram{
-    background: url("../public/assets/instagram.png");
-    background-size: cover;
+.jumbotron-socials--list img {
+    height: 100%;
 }
 
 .jumbotron-main{
