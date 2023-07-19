@@ -390,7 +390,6 @@ nav.hide {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    /* border: 1px solid black; */
 }
 
 .company-title--main {
@@ -670,6 +669,10 @@ footer {
     }
 
     .project-title--main {
+        font-size: 3rem;
+    }
+
+    .company-title--main{
         font-size: 3rem;
     }
 
