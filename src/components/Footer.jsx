@@ -11,6 +11,7 @@ export default function Footer(){
 
     return (
         <footer>
+            <div className="line"></div>
             <div className="footer-content">
                 <h2 className="footer-title"></h2>
                 <ul className="footer-content--list">

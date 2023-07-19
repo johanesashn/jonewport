@@ -203,6 +203,7 @@ nav.hide {
 .project-title--main {
     font-size: 4rem;
     margin-bottom: 3rem;
+    font-weight: 500;
 }
 
 .project-title--sub {
@@ -343,6 +344,7 @@ nav.hide {
     line-height: 5.5rem;
     overflow: hidden;
     width: 40%;
+    font-weight: 500;
 }
 
 .skills-title span {
@@ -376,36 +378,119 @@ nav.hide {
     overflow: hidden;
 }
 
+.company {
+    padding: 30px 3%;
+    background-color: var(--bg-light);
+    padding-bottom: 100px;
+}
+
+.company-title {
+    margin-bottom: 3rem;
+    justify-content: space-between  ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    /* border: 1px solid black; */
+}
+
+.company-title--main {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 4rem;
+    overflow: hidden;
+}
+
+.company-title--sub {
+    margin-bottom: 7px;
+}
+
+.company-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-mini {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 1rem;
+    width: calc(50% - 30px);
+    box-sizing: border-box;
+    gap: 15px;
+    font-weight: 300;
+    font-size: .9rem;
+    position: relative;
+}
+
+.card-mini--button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    background-color: var(--bg-nav);
+    border: none;
+    padding: .3rem 1rem;
+    color: var(--grey);
+    border-radius: 5px;
+}
+
+.card-mini--line.line {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.card-mini--caption {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    letter-spacing: .01rem;
+}
+
+.card-mini .status {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.card-mini--logo{
+    width: 50px;
+    border-radius: 50%;
+}
+
 .footer.walkingText-container {
     padding: 0;
     margin-bottom: -2.5rem;
-    background-color: var(--white);
-}
-
-.footer.walkingText-container.second{
     margin-bottom: 0;
-}
-
-.footer.walkingText-container.second h2 {
-    animation: move-ltr 25s linear infinite;
+    background-color: var(--bg-light);
 }
 
 footer {
     padding: 10px 3%;
     padding-top: 30px;
     position: relative;
+    background-color: var(--bg-light);
+}
+
+.line {
+    margin-bottom: 1rem;
+    height: 10px;
+    background-image: linear-gradient(to right, var(--bg-nav) 10%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 10px 2px;
+    background-repeat: repeat-x;
 }
 
 .footer-button {
     position: absolute;
-    top: 30px;
+    top: calc(1rem + 40px);
     right: 3%;
     padding: .5rem 1rem;
     box-sizing: border-box;
     border-radius: 5px;
     letter-spacing: .05rem;
     font-weight: 500;
-    background-color: var(--white);
+    background-color: var(--bg-light);
     width: fit-content;
     color: var(--dark);
     border: 1px solid var(--dark);
@@ -499,10 +584,6 @@ footer {
         margin-top: 2rem;
     }
 
-    .project-title--main {
-        font-size: 4.5rem;
-    }
-
     .skills-title {
         font-size: 4rem;
         line-height: 4rem;
@@ -590,6 +671,14 @@ footer {
 
     .project-title--main {
         font-size: 3rem;
+    }
+
+    .company-cards {
+        flex-direction: column;
+    }
+
+    .card-mini {
+        width: calc(100vw - 3%);
     }
 
     .skills{
