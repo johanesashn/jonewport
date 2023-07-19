@@ -2,7 +2,7 @@ import CardMini from "./CardMini"
 
 export default function Company(){
     return (
-        <div className="company">
+        <div className="company" id="experience">
             <div className="company-title">
                 <h2 className="company-title--main">EXPERIENCE</h2>
                 <p className="company-title--sub">Don't <b>miss</b> the latest happenings in my <b>Porto.</b></p>
