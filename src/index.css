@@ -75,7 +75,7 @@ nav{
     z-index: 3;
     transition: all .3s;
     color: var(--light);
-    animation: 1s goUp forwards;
+    animation: 1s goUp;
 }
 
 nav.hide {
