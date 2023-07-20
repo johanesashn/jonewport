@@ -14,6 +14,7 @@ export default function Jumbotron(){
     return (
         <main className="jumbotron">
             <section className="jumbotron-socials">
+                <p>Based in Indonesia</p>
                 <ul>
                     <li className="jumbotron-socials--list" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"><a href="https://www.instagram.com/johanesalberto/" target="_blank"><img src={instagram} alt="" /></a></li>
                     <li className="jumbotron-socials--list" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300"><a href="https://www.linkedin.com/in/johanes-alberto/" target="_blank"><img src={linkedin} alt="" /></a></li>

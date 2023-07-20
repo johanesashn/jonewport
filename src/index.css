@@ -107,9 +107,16 @@ nav.hide {
     font-size: 1rem;
     margin-bottom: -15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     top: 25px;
     right: 3%;
+    left: 3%;
+    align-items: center;
+}
+
+.jumbotron-socials p {
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .jumbotron-socials ul {
@@ -166,6 +173,10 @@ nav.hide {
 .jumbotron-main small{
     font-size: 3rem;
     margin-top: 3rem;
+}
+
+.jumbotron-title.one {
+    margin-left: -.6rem;
 }
 
 .jumbotron-main .jumbotron-title {
@@ -602,6 +613,10 @@ footer {
     .jumbotron-main small {
         font-size: 2rem;
         margin-top: 2rem;
+    }
+
+    .jumbotron-title.one {
+        margin-left: 0rem;
     }
 
     .skills-title {
