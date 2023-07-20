@@ -12,7 +12,7 @@ export default function CardMini(props){
     }
     
     return (
-        <div className="card-mini">
+        <div className="card-mini" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
             <div className="line card-mini--line"></div>
             <img src={`./assets/logo_${props.name}.png`} alt="" className="card-mini--logo"/>
             <div className="card-mini--caption">

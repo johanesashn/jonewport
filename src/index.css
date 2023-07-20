@@ -74,7 +74,8 @@ nav{
     letter-spacing: .05rem;
     z-index: 3;
     transition: all .3s;
-    color: var(--grey);
+    color: var(--light);
+    animation: 1s goUp forwards;
 }
 
 nav.hide {
@@ -109,6 +110,10 @@ nav.hide {
     justify-content: flex-end;
     top: 25px;
     right: 3%;
+}
+
+.jumbotron-socials ul {
+    overflow: hidden;
 }
 
 .jumbotron-button {
@@ -198,6 +203,10 @@ nav.hide {
     background-color: var(--bg-light);
     text-align: center;
     color: var(--dark);
+}
+
+.project-title {
+    overflow: hidden;
 }
 
 .project-title--main {
@@ -390,6 +399,7 @@ nav.hide {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
+    overflow: hidden;
 }
 
 .company-title--main {
@@ -407,6 +417,7 @@ nav.hide {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .card-mini {
@@ -569,6 +580,16 @@ footer {
     }
     75% {
       transform: scale(0.7, 1.2);
+    }
+}
+
+@keyframes goUp {
+    from {
+        bottom: -200px;
+    }
+
+    to {
+        bottom: 20px;
     }
 }
 

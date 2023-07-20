@@ -4,8 +4,8 @@ export default function Projects(){
     return (
         <div className="project" id="projects">
             <div className="project-title">
-                <p data-aos="zoom-in" data-aos-duration="500" className="project-title--sub">Latest</p>
-                <h2 data-aos="zoom-in" data-aos-duration="500" className="project-title--main">PROJECTS</h2>
+                <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" className="project-title--sub">Latest</p>
+                <h2 data-aos="fade-up" data-aos-duration="500" date-aos-delay="500" className="project-title--main">PROJECTS</h2>
             </div>
             <div className="project-container">
                 <Card name="foodies" target="https://jofood.netlify.app/" desc="food recipees website"/>
