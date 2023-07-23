@@ -189,12 +189,13 @@ nav.hide {
 
 .jumbotron-title.one {
     margin-left: -.6rem;
+    /* text-shadow: 1px 1px 2px var(--bg-nav); */
 }
 
 .jumbotron-main .jumbotron-title {
     display: flex;
     overflow: hidden;
-    text-shadow: 1px 1px 2px var(--bg-nav);
+    /* text-shadow: 1px 1px 2px var(--bg-nav); */
 }
 
 .jumbotron-bounce {
