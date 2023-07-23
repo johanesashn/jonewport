@@ -688,11 +688,11 @@ footer {
     }
 
     .project-container {
-        width: 90%;
         margin: auto;
         display: flex;
         overflow-x: auto;
         scrollbar-width: none;
+        column-gap: 15px;
     }
 
     .project-container::-webkit-scrollbar {
@@ -700,7 +700,7 @@ footer {
     }
 
     .project-container .card {
-        flex: 0 0 80%;
+        flex: 0 0 90%;
     }
 
     .project-title--sub {
@@ -709,6 +709,10 @@ footer {
 
     .project-title--main {
         font-size: 3rem;
+    }
+
+    .company {
+        padding-top: 0;
     }
 
     .company-title--main{
