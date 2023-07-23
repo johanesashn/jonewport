@@ -660,6 +660,10 @@ footer {
     .skills-content--skill{
         font-size: 1.2rem;
     }
+
+    .project-container {
+        gap: 10px;
+    }
 }
 
 @media (max-width: 500px){
