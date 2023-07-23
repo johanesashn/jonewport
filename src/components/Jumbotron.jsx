@@ -1,5 +1,6 @@
 import instagram from "../../public/assets/instagram.png"
 import linkedin from "../../public/assets/linkedin.png"
+import me from "../../public/assets/me.png"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 export default function Jumbotron(){
@@ -13,6 +14,7 @@ export default function Jumbotron(){
 
     return (
         <main className="jumbotron">
+            <img src={me} alt="" className="jumbotron-photo"/>
             <section className="jumbotron-socials">
                 <p>Based in Indonesia</p>
                 <ul>

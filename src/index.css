@@ -76,6 +76,7 @@ nav{
     transition: all .3s;
     color: var(--light);
     animation: 1s goUp;
+    opacity: .9;
 }
 
 nav.hide {
@@ -100,6 +101,17 @@ nav.hide {
     font-size: 7rem;
     position: relative;
     overflow: hidden;
+}
+
+.jumbotron-photo {
+    height: 95%;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+    z-index: 0;
+    position: absolute;
+    filter: grayscale(100%);
+    opacity: .8;
 }
 
 .jumbotron-socials {
@@ -182,6 +194,7 @@ nav.hide {
 .jumbotron-main .jumbotron-title {
     display: flex;
     overflow: hidden;
+    text-shadow: 1px 1px 2px var(--bg-nav);
 }
 
 .jumbotron-bounce {
@@ -207,6 +220,10 @@ nav.hide {
     word-spacing: 2rem;
     animation: move-rtl 25s linear infinite;
     color: var(--dark);
+}
+
+.walkingText:hover h2 {
+    animation-play-state: paused;
 }
 
 .project{
@@ -610,6 +627,12 @@ footer {
         height: 90vh;
     }
 
+    .jumbotron-photo {
+        height: 50%;
+        left: 30%;
+        animation: none;
+    }
+
     .jumbotron-main small {
         font-size: 2rem;
         margin-top: 2rem;
@@ -651,6 +674,12 @@ footer {
         font-size: 2.4rem;
         height: 80vh;
         padding-left: 2.5%;
+    }
+
+    .jumbotron-photo {
+        left: 0;
+        height: 50%;
+        opacity: .7;
     }
 
     .jumbotron-greeting {
