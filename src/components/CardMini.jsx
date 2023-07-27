@@ -9,6 +9,8 @@ export default function CardMini(props){
         company = "HDSign"
     } else if (props.name === "usu") {
         company = "University of Sumatera Utara"
+    } else if (props.name === "freelancer"){
+        company = "Freelancer"
     }
     
     return (

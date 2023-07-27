@@ -11,6 +11,7 @@ export default function Company(){
                 <CardMini name="pintara" status="Software Engineer" link="https://www.instagram.com/kampusindonesia/"/>
                 <CardMini name="beranidigital" status="Front-End Developer" link="https://beranidigital.id/"/>
                 <CardMini name="hdsign" status="Web Developer" link="https://www.instagram.com/hdsign.id/"/>
+                <CardMini name="freelancer" status="Web Developer" link="https://www.linkedin.com/in/johanes-alberto/"/>
                 <CardMini name="usu" status="teaching assistant" link="https://www.usu.ac.id/"/>
             </div>
         </div>
