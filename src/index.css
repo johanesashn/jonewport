@@ -266,6 +266,7 @@ nav.hide {
     top: 1.5rem;
     right: -2rem;
     transform: rotate(20deg);
+    z-index: 2;
 }
 
 .project-title--main {
