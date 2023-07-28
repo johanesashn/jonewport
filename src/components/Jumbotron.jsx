@@ -1,7 +1,7 @@
 import instagram from "../../public/assets/instagram.png"
 import linkedin from "../../public/assets/linkedin.png"
 // import me from "../../public/assets/me.png"
-import resume from "../../public/assets/Resume Johanes.pdf"
+import CV from "../../public/assets/CV Johanes.pdf"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 export default function Jumbotron(){
@@ -17,7 +17,7 @@ export default function Jumbotron(){
         <main className="jumbotron">
             {/* <img src={me} alt="" className="jumbotron-photo"/> */}
             <section className="jumbotron-socials">
-                <a href={resume} download="Resume Johanes.pdf" className="jumbotron-download">
+                <a href={CV} download="CV Johanes.pdf" className="jumbotron-download">
                     Download CV
                 </a>
                 <ul>

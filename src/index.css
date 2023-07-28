@@ -109,12 +109,12 @@ nav.hide {
 
 .jumbotron-download {
     font-size: 1rem;
-    /* background: var(--dark); */
     background-color: var(--yellow);
+    color: var(--dark);
     width: fit-content;
     padding: .5rem 1rem;
     border-radius: 5px;
-    color: var(--bg-dark);
+    /* color: var(--bg-dark); */
     font-weight: 500;
 }
 
