@@ -250,7 +250,22 @@ nav.hide {
 }
 
 .project-title {
-    overflow: hidden;
+    overflow: visible;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.project-label {
+    position: absolute;
+    font-weight: 500;
+    font-size: 1.3rem;
+    background-color: var(--smooth-green);
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    top: 1.5rem;
+    right: -2rem;
+    transform: rotate(20deg);
 }
 
 .project-title--main {
@@ -390,6 +405,11 @@ nav.hide {
     justify-content: space-between;
     align-items: center;
     color: var(--dark);
+    overflow: visible;
+}
+
+.skills h2 {
+    overflow: visible;
 }
 
 .skills-label {
@@ -402,9 +422,9 @@ nav.hide {
     padding: .3rem 1rem;
     border-radius: 5px;
     overflow: hidden;
-    top: 2.5rem;
+    top: 0rem;
     right: 1rem;
-    transform: rotate(-20deg);
+    transform: rotate(20deg);
 }
 
 .skills-title{
@@ -701,7 +721,7 @@ footer {
     }
 
     .skills-label {
-        top: 2rem;
+        top: 0rem;
         right: 0rem;
     }
 
@@ -836,7 +856,7 @@ footer {
     }
 
     .skills-label {
-        top: 1.5rem;
+        top: -.5rem;
         right: 1rem;
     }
 
