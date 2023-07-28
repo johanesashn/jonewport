@@ -1,6 +1,7 @@
 import instagram from "../../public/assets/instagram.png"
 import linkedin from "../../public/assets/linkedin.png"
 // import me from "../../public/assets/me.png"
+import resume from "../../public/assets/Resume Johanes.pdf"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 export default function Jumbotron(){
@@ -16,11 +17,13 @@ export default function Jumbotron(){
         <main className="jumbotron">
             {/* <img src={me} alt="" className="jumbotron-photo"/> */}
             <section className="jumbotron-socials">
-                <p>Based in Indonesia</p>
+                <a href={resume} download="Resume Johanes.pdf" className="jumbotron-download">
+                    Download CV
+                </a>
                 <ul>
                     <li className="jumbotron-socials--list" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"><a href="https://www.instagram.com/johanesalberto/" target="_blank"><img src={instagram} alt="" /></a></li>
                     <li className="jumbotron-socials--list" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300"><a href="https://www.linkedin.com/in/johanes-alberto/" target="_blank"><img src={linkedin} alt="" /></a></li>
-                    <li className="jumbotron-socials--list" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600"><a href="mailto:johanesashn@gmail.com" target="_blank"><button className="jumbotron-button">Email Me</button></a></li>
+                    <li className="jumbotron-socials--list" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600"><a href="mailto:johanesalbertosiahaan15092003@gmail.com" target="_blank"><button className="jumbotron-button">Email Me</button></a></li>
                 </ul>
             </section>
             <h1 className="jumbotron-title one jumbotron-greeting">{text}<Cursor/><span className="invisible">.</span></h1>

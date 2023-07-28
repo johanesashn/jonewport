@@ -7,7 +7,11 @@
     --dark-gray: #d2d2d2;
     --bg-light: #f8f8f8;
     --bg-nav: #3e3e3e;
-    --white: #fff
+    --white: #fff;
+    --yellow: #FED11B;
+    --blue: #502BD8;
+    --smooth-green: #AAEEC4;
+    --red: rgb(255, 0, 0)
 }
 
 ::-webkit-scrollbar {
@@ -101,6 +105,17 @@ nav.hide {
     font-size: 7rem;
     position: relative;
     overflow: hidden;
+}
+
+.jumbotron-download {
+    font-size: 1rem;
+    /* background: var(--dark); */
+    background-color: var(--yellow);
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    color: var(--bg-dark);
+    font-weight: 500;
 }
 
 .jumbotron-photo {
@@ -377,7 +392,23 @@ nav.hide {
     color: var(--dark);
 }
 
+.skills-label {
+    background-color: var(--blue);
+    color: var(--smooth-green);
+    position: absolute;
+    z-index: 2;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    overflow: hidden;
+    top: 2.5rem;
+    right: 1rem;
+    transform: rotate(-20deg);
+}
+
 .skills-title{
+    position: relative;
     font-size: 6rem;
     line-height: 5.5rem;
     overflow: hidden;
@@ -420,6 +451,7 @@ nav.hide {
     padding: 30px 3%;
     background-color: var(--bg-light);
     padding-bottom: 100px;
+    overflow: visible;
 }
 
 .company-title {
@@ -428,7 +460,25 @@ nav.hide {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    overflow: hidden;
+    overflow: visible;
+}
+
+.company-title h2 {
+    position: relative;
+    overflow: visible;
+}
+
+.company-label {
+    position: absolute;
+    top: 0;
+    right: -3rem;
+    font-size: 1.1rem;
+    background-color: var(--red);
+    line-height: 2rem;
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    transform: rotate(20deg);
+    /* letter-spacing: .05rem; */
 }
 
 .company-title--main {
@@ -529,10 +579,11 @@ footer {
     border-radius: 5px;
     letter-spacing: .05rem;
     font-weight: 500;
-    background-color: var(--bg-light);
+    background-color: var(--yellow);
     width: fit-content;
     color: var(--dark);
-    border: 1px solid var(--dark);
+    /* border: 1px solid var(--dark); */
+    border: none;
     height: fit-content;
     display: flex;
     align-items: center;
@@ -649,6 +700,11 @@ footer {
         width: 45%;
     }
 
+    .skills-label {
+        top: 2rem;
+        right: 0rem;
+    }
+
     .skills-title--sub{
         font-size: 2.55rem;
     }
@@ -750,6 +806,12 @@ footer {
         padding-top: 0;
     }
 
+    .company-label {
+        font-size: 1rem;
+        right: -3rem;
+        top: -.5rem;
+    }
+
     .company-title--main{
         font-size: 3rem;
     }
@@ -771,6 +833,11 @@ footer {
         font-size: 3rem;
         line-height: 3rem;
         text-align: center;
+    }
+
+    .skills-label {
+        top: 1.5rem;
+        right: 1rem;
     }
 
     .skills-title--sub{

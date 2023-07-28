@@ -17,7 +17,7 @@ export default function Footer(){
                 <ul className="footer-content--list">
                     <li><a href="https://www.instagram.com/johanesalberto/" target="_blank"><img src={instagram} alt="" /></a></li>
                     <li><a href="https://www.linkedin.com/in/johanes-alberto/" target="_blank"><img src={linkedin} alt="" /></a></li>
-                    <li><a href="mailto:johanesashn@gmail.com" target="_blank"><img src={gmail} alt="" /></a></li>
+                    <li><a href="mailto:johanesalbertosiahaan15092003@gmail.com" target="_blank"><img src={gmail} alt="" /></a></li>
                 </ul>
             </div>
             <button onClick={goUp} className="footer-button">Go Upside <img src={arrow} alt="" className="footer-button--image"/></button>

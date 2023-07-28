@@ -10,10 +10,10 @@ export default function Projects(){
             <div className="project-container">
                 <Card name="foodies" target="https://jofood.netlify.app/" desc="food recipees website"/>
                 <Card name="pintara" target="https://jocourse.vercel.app/" desc="course website"/>
-                <Card name="joquiz" target="https://joquiz.netlify.app/" desc="quiz website"/>
-                <Card name="playpark" target="https://playpark.netlify.com/" desc="gaming website"/>
                 <Card name="tulist" target="https://tulist.vercel.app/" desc="to-do list website"/>
                 <Card name="tenzies" target="https://jotenzies.netlify.app/" desc="tenzies website"/>
+                <Card name="playpark" target="https://playpark.netlify.com/" desc="gaming website"/>
+                <Card name="joquiz" target="https://joquiz.netlify.app/" desc="quiz website"/>
             </div>
         </div>
     )

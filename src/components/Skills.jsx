@@ -2,6 +2,7 @@ export default function Skills(){
     return (
         <div className="skills" id="skills">
             <h2 className="skills-title">
+                <div className="skills-label">whiz</div>
                 <span className="skills-title--sub" data-aos="zoom-in" data-aos-duration="500">DEMONSTRATED </span> 
                 <span data-aos="zoom-in" data-aos-duration="500" data-aos-delay="450">SKILLS</span>
             </h2>
