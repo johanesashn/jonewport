@@ -17,7 +17,7 @@ export default function Jumbotron(){
         <main className="jumbotron">
             {/* <img src={me} alt="" className="jumbotron-photo"/> */}
             <section className="jumbotron-socials">
-                <a href={CV} download="CV Johanes.pdf" className="jumbotron-download">
+                <a href={CV} download="CV Johanes.pdf" className="jumbotron-download" data-aos="fade-up" data-aos-duration="500">
                     Download CV
                 </a>
                 <ul>
