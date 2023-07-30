@@ -140,6 +140,7 @@ nav.hide {
     right: 3%;
     left: 3%;
     align-items: center;
+    overflow: hidden;
 }
 
 .jumbotron-socials p {
