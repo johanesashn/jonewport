@@ -109,8 +109,8 @@ nav.hide {
 
 .jumbotron-download {
     font-size: 1rem;
-    background-color: var(--yellow);
-    color: var(--dark);
+    background-color: var(--bg-nav);
+    color: var(--white);
     width: fit-content;
     padding: .5rem 1rem;
     border-radius: 5px;
