@@ -11,6 +11,8 @@ export default function CardMini(props){
         company = "University of Sumatera Utara"
     } else if (props.name === "freelancer"){
         company = "Freelancer"
+    } else if (props.name === "telkom"){
+        company = "PT Telkom Indonesia"
     }
     
     return (

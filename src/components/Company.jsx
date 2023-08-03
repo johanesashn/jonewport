@@ -8,6 +8,7 @@ export default function Company(){
                 <p className="company-title--sub" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">Don't <b>miss</b> the latest happenings in my <b>Porto.</b></p>
             </div>
             <div className="company-cards">
+                <CardMini name="telkom" status="Web Developer" link="https://www.linkedin.com/company/telekomunikasi-indonesia/mycompany/"/>
                 <CardMini name="pintara" status="Software Engineer" link="https://www.instagram.com/kampusindonesia/"/>
                 <CardMini name="beranidigital" status="Front-End Developer" link="https://beranidigital.id/"/>
                 <CardMini name="hdsign" status="Web Developer" link="https://www.instagram.com/hdsign.id/"/>
