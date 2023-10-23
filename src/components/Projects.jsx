@@ -10,11 +10,11 @@ export default function Projects(){
             </div>
             <div className="project-container">
                 <Card name="foodies" target="https://jofood.netlify.app/" desc="food recipees website"/>
-                <Card name="pintara" target="https://jocourse.vercel.app/" desc="course website"/>
+                <Card name="broquiz" target="https://broquizz.netlify.app/" desc="quiz website"/>
                 <Card name="tulist" target="https://tulist.vercel.app/" desc="to-do list website"/>
                 <Card name="playpark" target="https://playpark.netlify.com/" desc="gaming website"/>
                 <Card name="joquotes" target="https://joquotes.netlify.app/" desc="quotes generator website"/>
-                <Card name="joquiz" target="https://joquiz.netlify.app/" desc="quiz website"/>
+                <Card name="pintara" target="https://jocourse.vercel.app/" desc="course website"/>
             </div>
         </div>
     )
