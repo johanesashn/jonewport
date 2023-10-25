@@ -1,7 +1,7 @@
 import instagram from "../../public/assets/instagram.png"
 import linkedin from "../../public/assets/linkedin.png"
 // import me from "../../public/assets/me.png"
-import CV from "../../public/assets/CV Johanes.pdf"
+import CV from "../../public/assets/Resume Johanes.pdf"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 export default function Jumbotron(){
