@@ -7,6 +7,7 @@ export default function Skills(){
                 <span data-aos="zoom-in" data-aos-duration="500" data-aos-delay="450">SKILLS</span>
             </h2>
             <div className="skills-content">
+                <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="150">Next.js</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500">ReactJs</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="50">HTML</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">CSS</div>
@@ -22,7 +23,6 @@ export default function Skills(){
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">PHP</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">MYSQL</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500">MongoDB</div>
-                <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">Rest API</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500">AOS</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500">GSAP</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">Python</div>
