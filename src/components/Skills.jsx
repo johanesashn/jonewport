@@ -11,7 +11,8 @@ export default function Skills(){
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500">ReactJs</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="50">HTML</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">CSS</div>
-                <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="150">SASS</div>
+                <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">SASS</div>
+                <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="150">Tailwind</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">Bootstrap</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="250">JavaScript</div>
                 <div className="skills-content--skill" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">ES6</div>
