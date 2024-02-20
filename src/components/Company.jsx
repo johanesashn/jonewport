@@ -9,7 +9,7 @@ export default function Company(){
             </div>
             <div className="company-cards">
                 <CardMini name="telkom" status="Fullstack Developer" link="https://www.linkedin.com/company/telekomunikasi-indonesia/mycompany/"/>
-                <CardMini name="pintara" status="Software Engineer" link="https://www.instagram.com/kampusindonesia/"/>
+                <CardMini name="kampusindonesia" status="Software Engineer" link="https://www.instagram.com/kampusindonesia/"/>
                 <CardMini name="beranidigital" status="Front-End Developer" link="https://beranidigital.id/"/>
                 <CardMini name="hdsign" status="Web Developer" link="https://www.instagram.com/hdsign.id/"/>
                 <CardMini name="freelancer" status="Web Developer" link="https://www.linkedin.com/in/johanes-alberto/"/>

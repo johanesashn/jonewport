@@ -3,8 +3,8 @@ export default function CardMini(props){
 
     if (props.name === "beranidigital") {
         company = "Berani Digital"
-    } else if (props.name === "pintara") {
-        company = "Pintara"
+    } else if (props.name === "kampusindonesia") {
+        company = "Kampus Indonesia"
     } else if (props.name === "hdsign") { 
         company = "HDSign"
     } else if (props.name === "usu") {
