@@ -2,6 +2,7 @@ import instagram from "../../public/assets/instagram.png"
 import linkedin from "../../public/assets/linkedin.png"
 import CV from "../../public/assets/CV Johanes.pdf"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
+import download from "../../public/assets/download.png"
 
 export default function Jumbotron(){
 
@@ -18,6 +19,7 @@ export default function Jumbotron(){
             <section className="jumbotron-socials">
                 <a href={CV} download="CV Johanes.pdf" className="jumbotron-download" data-aos="fade-up" data-aos-duration="500">
                     Download CV
+                    <img src={download} className="footer-button--image" alt="" />
                 </a>
                 <ul>
                     <li className="jumbotron-socials--list" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"><a href="https://www.instagram.com/johanesalberto/" target="_blank"><img src={instagram} alt="" /></a></li>

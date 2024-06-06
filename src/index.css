@@ -60,6 +60,7 @@ a {
     inset: 0;
     z-index: 5;
     background-color: var(--dark-gray);
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,14 +110,14 @@ nav.hide {
 
 .jumbotron-download {
     font-size: 1rem;
-    background-color: var(--dark);
-    background-color: var(--bg-nav);
-    color: var(--white);
+    background-color: var(--yellow);
+    color: var(--dark);
     width: fit-content;
     padding: .5rem 1rem;
     border-radius: 5px;
-    /* color: var(--bg-dark); */
     font-weight: 500;
+    display: flex;
+    align-items: center;
 }
 
 .jumbotron-photo {
