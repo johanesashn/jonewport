@@ -15,7 +15,7 @@ export default function App(){
       <Loader/> 
       <Navbar/>
       <Jumbotron/>
-      <WalkingText text="STUDENT. WEB-DEVELOPER. FREELANCER. INDONESIAN."/>
+      <WalkingText text="CS STUDENT | SOFTWARE DEVELOPER | 200+ PROBLEMS ON LEETCODE | FREELANCER | INDONESIAN."/>
       <Projects/>
       <Company/>
       <Skills/>

@@ -427,7 +427,7 @@ nav.hide {
     border-radius: 5px;
     overflow: hidden;
     top: 0rem;
-    right: 1rem;
+    right: 4rem;
     transform: rotate(20deg);
 }
 
@@ -496,7 +496,7 @@ nav.hide {
     position: absolute;
     top: 0;
     right: -3rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     background-color: var(--red);
     line-height: 2rem;
     padding: .3rem 1rem;
